@@ -1,0 +1,11 @@
+NAME="Tagaroa"
+PRETTY_NAME="Tagaroa"
+ID=tagaroa
+BUILD_ID=rolling
+ANSI_COLOR="38;2;23;147;209"
+HOME_URL="https://github.com/Tagaroa"
+DOCUMENTATION_URL="https://github.com/Tagaroa/Tagaroa"
+SUPPORT_URL="https://github.com/Tagaroa/Tagaroa"
+BUG_REPORT_URL="https://github.com/Tagaroa/Tagaroa"
+PRIVACY_POLICY_URL="https://github.com/Tagaroa/Tagaroa"
+LOGO=archlinux-logo
