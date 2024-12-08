@@ -1,0 +1,5 @@
+root:x:0:root
+adm:x:4:tagaroa
+wheel:x:10:tagaroa
+uucp:x:14:tagaroa
+tagaroa:x:1000:
