@@ -35,7 +35,6 @@ fsarchiver
 gpart
 gpm
 gptfdisk
-grml-zsh-config
 grub
 hdparm
 hyperv
@@ -126,3 +125,7 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
+cowsay
+figlet
+lolcat
+neofetch
