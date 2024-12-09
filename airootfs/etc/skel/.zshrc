@@ -70,8 +70,9 @@ ZSH_THEME="bira"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(archlinux)
+plugins=(archlinux git)
 
+source $HOME/.motd.zsh
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zsh-autocomplete/zsh-autocomplete.plugin.zsh
 source <(fzf --zsh)
@@ -110,4 +111,3 @@ eval "$(zoxide init zsh)"
 alias cd="z"
 alias fuck="fuck --yeah"
 
-$HOME/.motd.zsh

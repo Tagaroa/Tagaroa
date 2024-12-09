@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 # Formatting variables
 COLOR_P='\033[1;36m'
 COLOR_S='\033[0;36m'

@@ -125,9 +125,12 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
+git
 cowsay
 figlet
 lolcat
 neofetch
 thefuck
+zoxide
 fzf
+
