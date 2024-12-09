@@ -110,6 +110,6 @@ source <(fzf --zsh)
 eval $(thefuck --alias)
 eval "$(zoxide init zsh)"
 alias cd="z"
-alias sialan="fuck --yeah"
+alias fuck="fuck --yeah"
 
 /home/rx7/.motd.zsh
