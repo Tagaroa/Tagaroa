@@ -73,6 +73,8 @@ ZSH_THEME="bira"
 plugins=(git archlinux)
 
 source $ZSH/oh-my-zsh.sh
+source $HOME/.zsh-autocomplete/zsh-autocomplete.plugin.zsh
+source <(fzf --zsh)
 
 # User configuration
 
@@ -102,8 +104,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-#
+
+
+
 eval $(thefuck --alias)
+eval "$(zoxide init zsh)"
+alias cd="z"
 alias sialan="fuck --yeah"
 
-/home/rx7/.motd.sh
+/home/rx7/.motd.zsh
