@@ -5,7 +5,7 @@ iso_name="tagaroa"
 iso_label="TAGAROA_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%m%Y)"
 iso_publisher="Tagaroa <https://github.com/Tagaroa>"
 iso_application="Tagaroa Live System"
-iso_version="0.0.2-$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%d.%m.%Y)"
+iso_version="0.1.0-$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%d.%m.%Y)"
 install_dir="tagaroa"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'
