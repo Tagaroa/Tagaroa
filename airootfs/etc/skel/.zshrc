@@ -72,10 +72,10 @@ ZSH_THEME="bira"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(archlinux)
 
-$HOME/.motd.zsh
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zsh-autocomplete/zsh-autocomplete.plugin.zsh
 source <(fzf --zsh)
+$HOME/.motd.zsh
 
 # User configuration
 
@@ -90,6 +90,7 @@ source <(fzf --zsh)
 # else
 #   export EDITOR='nvim'
 # fi
+export EDITOR='vim'
 
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
@@ -112,3 +113,5 @@ eval "$(zoxide init zsh)"
 alias cd="z"
 alias fuck="fuck --yeah"
 alias ls="eza"
+alias manual="tldr"
+alias disk-usage="duf"
