@@ -72,10 +72,11 @@ ZSH_THEME="bira"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(archlinux)
 
+chmod +x $HOME/.motd.sh
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zsh-autocomplete/zsh-autocomplete.plugin.zsh
 source <(fzf --zsh)
-$HOME/.motd.zsh
+$HOME/.motd.sh
 
 # User configuration
 
@@ -119,3 +120,4 @@ alias download="aria2c"
 alias cat="bat"
 alias pacman="paru"
 alias tree="tre"
+alias ps="procs"
