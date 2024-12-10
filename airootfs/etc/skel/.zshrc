@@ -111,4 +111,4 @@ eval "$(zoxide init zsh)"
 
 alias cd="z"
 alias fuck="fuck --yeah"
-
+alias ls="eza"
